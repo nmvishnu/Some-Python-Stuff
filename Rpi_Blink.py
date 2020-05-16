@@ -1,3 +1,5 @@
+#Created by Vishnu N M on 10th April 2020
+#LEDs on Raspberry pi is initially blink mode. When any keyboard key is held down, LEDs stays on ON mode (HIGH). When key released, goes back to blink mode.
 import RPi.GPIO as GPIO 
 import time
 import keyboard
